@@ -1,0 +1,84 @@
+/****************************************************************************************************************************************/
+/************************************************************** TABLE STYLE *************************************************************/
+/****************************************************************************************************************************************/
+
+table{
+	color : #0078A9;
+	border: none!IMPORTANT;
+}
+.table > thead > tr > th, .table > tbody > tr > th, 
+.table > tfoot > tr > th, .table > thead > tr > td, 
+.table > tbody > tr > td, .table > tfoot > tr > td{
+	padding     : 5px;
+    line-height : 1.5;
+    font-size   : 12px;
+    text-align  : center;
+    border      : none;
+}
+.form-control,
+.dataTables_length,
+.dataTables_info,
+.pagination > .disabled > span, 
+.pagination > .disabled > span:hover, 
+.pagination > .disabled > span:focus, 
+.pagination > .disabled > a, 
+.pagination > .disabled > a:focus,
+.pagination > .disabled > a:hover, 
+div.dataTables_wrapper div.dataTables_filter,
+div.dataTables_wrapper div.dataTables_length select{
+	color : #0078A9;
+}
+.table > thead > tr{
+	font-weight      :700;
+	background-color : #0078A9;
+    color            : #fff;
+}
+	.table-striped > tbody > tr:nth-of-type(odd):hover,
+	.table-striped > tbody > tr:nth-of-type(odd):hover .abrir-modal,
+	.even:hover, 
+	.even:hover .abrir-modal{
+		background-color : #0078A9;
+	    color            : #fff;
+	}
+	.table-striped > tbody > tr:nth-of-type(odd):hover  td.details-control,
+	.table-striped > tbody > tr:nth-of-type(odd):hover  td.details-control.mas::after,
+	.table-striped > tbody > tr:nth-of-type(odd):hover  td.details-control.mas::before,
+	.even:hover  td.details-control,
+	.even:hover  td.details-control.mas::after,
+	.even:hover  td.details-control.mas::before{
+		border:1px solid #fff!important;
+	}	
+.pagination > .active > a, 
+.pagination > .active > span, 
+.pagination > .active > a:hover, 
+.pagination > .active > span:hover, 
+.pagination > .active > a:focus, 
+.pagination > .active > span:focus{
+	background-color : #0078A9;
+    border-color     : #0078A9;
+}
+table > tbody > tr > td:last-child, 
+table > thead > tr > th:last-child{
+	text-align: left;
+}
+
+/****************************************************************************************************************************************/
+/************************************************************** BODY STYLE *************************************************************/
+/****************************************************************************************************************************************/
+
+.container{
+	margin: 30px 5%;
+}
+.center-block {
+	margin: 30px 5%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.glyphicon-refresh:before {
+    margin-right: 10px;
+}
+p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
